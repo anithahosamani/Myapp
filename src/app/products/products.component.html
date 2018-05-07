@@ -4,13 +4,15 @@
 
 
   <p>Searched array</p>
-  <li *ngFor="let x1 of new_array; let x=index" (click)="select(x1,x)" >{{x1}}</li>
-
+  <ul>
+  <li class="life-contain" *ngFor="let x1 of new_array; let x=index" (click)="select(x1,x)" >{{x1}}</li>
+  </ul>
 
   <p>selected array</p>
-  <div *ngFor="let e of selected_array;   let i=index " (click)="remove(i)"  style="color:blue;">
-  {{e}} </div>
-
+  <ul>
+  <li class="life-container" *ngFor="let e of selected_array;   let i=index " (click)="remove(i)"  style="color:blue;">
+  {{e}} </li>
+</ul>
 
   
 

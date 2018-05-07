@@ -1,6 +1,52 @@
 
+  .life-contain{
+      border: 0;
+      padding: 1em 2em;
+      background: blue;  
+      margin-bottom: 2em;
+      display: block ;
+      color: gold;
+      cursor: pointer;
+  }
+  .life-container{
+      border: 0;
+      padding: 1em 2em;
+      background: fuchsia;
+      margin-bottom: 2em;
+      display: block ;
+      color: gold;
+      cursor: pointer;
+  }
+  
+  
 
-.red {
-  color: red;
-}
+ul {
+  list-style-type: none;
+  margin: 0 0 2em 0;
+  padding: 0%
+  
+  }
+  ul li{
+      display: inline;
+      margin-right: 30px;
+  }
+  
+  ul li a{
+      font-size: 1.5em;
+  }
+  a{
+      color: rgb(128, 0, 0);
+      font-family:  Bold;
+      text-decoration: none;
+  }
 
+  li {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+    /* NOT REAL */
+    text-align: border-path;
+  }
+
+  
